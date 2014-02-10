@@ -1,0 +1,10 @@
+Hal yang ingin ditanyakan :
+1. Bagaimana ketika ingin menambahkan suatu data setiap kode sudah ada otomatis 
+2. Bagaimana caranya setiap radio button dan select option sudah ke selected ketika di edit
+3. Cara kerja pendaftaran, pembayaran, resep, detail, dll
+4. Bagaimana caranya ketika diketik kode langsung munul otomatis tanpa harus milih pake select option
+5. cara export ke pdf
+
+Cara kerja pendaftaran :
+1. Create Pasien => (echo berhasil) Create Pendaftaran 
+=> 

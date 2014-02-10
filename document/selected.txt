@@ -1,0 +1,17 @@
+		<th>Project</th>
+		<td>	
+		<select  name="project">		
+		<?php 
+		$sql="select * from poliklinik,dokter Where dokter.kodePlk=poliklinik.kodePlk And kodeDkt='$kodeDkt'";
+		$q=mysql_query($sql); 
+		while($rs=mysql_fetch_array($q)) {
+		if ($rs['id_project']==$rst['id_project']) {
+		$abc=$rs['id_project']."\" selected=\"selected";
+		} else {
+		$abc=$rs['id_project'];
+		}
+		?>
+		<option value="<?=$abc ?>"> <?=$rs['nama_project'] ?> </option>
+		<?php
+		}
+		?></select></td>
